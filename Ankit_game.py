@@ -1,3 +1,9 @@
+#A space adventure game with classes and composition
+#Checking the functionalities of keywords also
+#property of Ankit Bhatnagar
+#Victory!!
+
+
 class Scene(object):
 
     def enter(self):
