@@ -14,3 +14,6 @@ def test_advanced():
 	assert_equal(obj.subject,'bear')
 	assert_equal(obj.verb,'eat')
 	assert_equal(obj.object,'honey')
+
+def test_exception():
+	assert_raises(parser.ParserError, parser.parse_sentence, ([('noun', 'bear')]))
