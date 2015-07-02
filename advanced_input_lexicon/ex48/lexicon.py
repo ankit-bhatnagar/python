@@ -8,7 +8,7 @@ def check_number(text):
 	except ValueError:
 		return None
 
-
+ 
 def scan(text):
 	#make tuples for each text possible
 	directions=('north','south','east','west')
