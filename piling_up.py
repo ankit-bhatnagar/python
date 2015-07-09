@@ -3,7 +3,11 @@ def result(nums,n):
 	numbers=[]
 	for i in nums:
 		numbers.append(int(nums[i]))
-	j=n-1
+	recursive(i,j)	
+
+def recursive(i,j):
+	if i==j:
+
 	for i in range(n):
 		if numbers[i]>=numbers[j]:
 			pass
