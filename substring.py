@@ -1,4 +1,4 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+# Program to output the no. of occurrances of a substring
 import collections
 import re
 def exists(word,text):
